@@ -1,0 +1,671 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+.bg{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba( 0, 0, 0, 0.7)), url("../../img/lesson16/img1.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+.header{
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.589);
+    backdrop-filter: blur(10px);
+    padding: 0px 97px 0px 97px;
+}
+
+.col{
+    height: 100px;
+}
+
+.img1{
+    margin: 36px 0px 0px 38px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    padding: 38px 0px 0px 0px;
+}
+
+li{
+    padding: 0px 40px 0px 40px;
+}
+
+.a1{
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+.a1:hover{
+    color: #2EBAEE;
+    text-decoration: underline 2px;
+    transition: 0.6s ease;
+}
+
+.hh1{
+    color: white;
+    font-size: 72px;
+    font-weight: 800;
+    max-width: 1110px;
+    margin: 0 auto;
+    padding-top: 290px;
+}
+
+.hh1_blue{
+    color: #2EBAEE;
+    font-size: 72px;
+}
+
+.p1{
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    max-width: 585px;
+    margin: 0 auto;
+    padding: 10px 0px 80px 0px;
+}
+
+.BTN1{
+    margin: 0 auto;
+    width: 215px;
+}
+
+.btn1{
+    padding: 15px 60px;
+    border-radius: 50px;
+    background-color: #2EBAEE;
+    color: white;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.6s ease;
+    margin: 0 auto;
+}
+
+.btn1:hover{
+    background-color: #2ec8ee;
+    color: white;
+    transition: 0.6s ease;
+}
+
+.hh2{
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    color: #242424;
+    font-size: 48px;
+    font-weight: 600;
+    max-width: 306px;
+    margin: 0 auto;
+    padding: 77px 0px 77px 0px;
+}
+
+.hr1{
+    border: 1px solid rgba(0, 0, 0, 0);
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.col_card{
+    height: 360px;
+    padding: 90px 0px 0px 0px;
+}
+
+.img2{
+    margin: 0px 0px 52px 0px;
+}
+
+.hh3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #242424;
+}
+
+.p2{
+    font-size: 14px;
+    color: #878787;
+    margin: 26px 0px 0px 0px;
+    max-width: 277px;
+}
+
+.img3{
+    margin: 0px 0px 56px 0px;
+}
+
+.img4{
+    margin: 5px 0px 56px 0px;
+}
+
+#row_cards{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.BTN2{
+    margin: 0 auto;
+    width: 183px;
+    padding: 80px 0px 0px 0px;
+}
+
+.btn2{
+    padding: 14px 30px;
+    border-radius: 50px;
+    background-color: #2EBAEE;
+    color: white;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.6s ease;
+    margin: 0 auto;
+}
+
+.btn2:hover{
+    background-color: #2ec8ee;
+    color: white;
+    transition: 0.6s ease;
+}
+
+/* 2 часть сайта bg_blue */
+
+.container_chapter2{
+    width: 100%;
+    height: 1500px;
+    background: url("../../img/lesson16/img3.png") center center no-repeat;
+    background-position-y: 0px;
+    background-size: cover;
+    padding: 200px 0px 0px 0px;
+}
+
+.laptop{
+    width: 100%;
+    height: 580px;
+}
+
+.txt1{
+    width: 410px;
+    height: 280px;
+    float: right;
+    margin: 90px 0px 0px 0px;
+}
+
+.hh4{
+    color: #242424;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.p3{
+    font-size: 14px;
+    color: #878787;
+    margin: 48px 0px 64px 0px;
+    line-height: 1.8;
+}
+
+.btn3{
+    padding: 14px 30px;
+    border-radius: 50px;
+    background-color: #2EBAEE;
+    color: white;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.6s ease;
+    margin: 0 auto;
+}
+
+.btn3:hover{
+    background-color: #2ec8ee;
+    color: white;
+    transition: 0.6s ease;
+}
+
+.col_lap{
+    height: 580px;
+}
+
+.txt2{
+    width: 410px;
+    height: 280px;
+    float: left;
+    margin: 90px 0px 0px 150px;
+}
+
+.pad{
+    margin: 150px 0px 0px 0px;
+}
+
+.img5{
+    float: right;
+}
+
+.hh5{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.p4{
+    font-size: 14px;
+    color: #ffffff;
+    margin: 48px 0px 64px 0px;
+    line-height: 1.8;
+}
+
+.btn4{
+    padding: 14px 30px;
+    border-radius: 50px;
+    background-color: white;
+    color: #2EBAEE;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.6s ease;
+    margin: 0 auto;
+}
+
+.btn4:hover{
+    background-color: #e0f9ff;
+    color: #2EBAEE;
+    transition: 0.6s ease;
+}
+
+/* 3 часть сайта chapter3 */
+
+.photos2{
+    width: 100%;
+    height: 669px;
+}
+
+.wrapper1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.img6{
+    width: 952px;
+    height: 669px;
+}
+
+.txt3{
+    width: 500px;
+    height: 500px;
+    margin: 90px 0px 0px 74px;
+}
+
+.hh6{
+    font-size: 72px;
+}
+
+.p5{
+    line-height: 1.8;
+    color: #878787;
+    margin: 84px 0px 84px 0px;
+}
+
+.photos4{
+    width: 100%;
+    height: 400px;
+}
+
+.wrapper2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.card1{
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba( 0, 0, 0, 0.7)), url('../../img/lesson16/img11.png');
+    background-size: 170%;
+    background-repeat: no-repeat;
+    background-position-x: -220px;
+}
+
+.card1:hover{
+    background-image: linear-gradient(#2ebbeead, #2ebbeead), url('../../img/lesson16/img11.png');
+}
+
+.card2{
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba( 0, 0, 0, 0.7)), url('../../img/lesson16/img12.png');
+    background-size: 130%;
+    background-repeat: no-repeat;
+    background-position-x: -100px;
+}
+
+.card2:hover{
+    background-image: linear-gradient(#2ebbeead, #2ebbeead), url('../../img/lesson16/img12.png');
+}
+
+.card3{
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba( 0, 0, 0, 0.7)), url('../../img/lesson16/img13.png');
+    background-size: 130%;
+    background-repeat: no-repeat;
+    background-position-x: -70px;
+}
+
+.card3:hover{
+    background-image: linear-gradient(#2ebbeead, #2ebbeead), url('../../img/lesson16/img13.png');
+}
+
+.card4{
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba( 0, 0, 0, 0.7)), url('../../img/lesson16/img14.png');
+    background-size: 130%;
+    background-repeat: no-repeat;
+    background-position-x: -70px;
+}
+
+.card4:hover{
+    background-image: linear-gradient(#2ebbeead, #2ebbeead), url('../../img/lesson16/img14.png');
+}
+
+.hh7{
+    font-size: 48px;
+    color: white;
+    font-weight: 800;
+    max-width: 340px;
+    margin: 0 auto;
+    padding: 150px 0px 0px 0px;
+}
+
+/* 4 часть сайта chapter4 */
+
+.txt4{
+    max-width: 600px;
+    margin: 97px 0px 126px 348px;
+}
+
+.hh8{
+    font-weight: 800;
+    font-size: 72px;
+}
+
+.col_lud{
+    height: 500px;
+}
+
+#row_lud{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.chel1{
+    width: 210px;
+    height: 210px;
+    background-color: #EFEFEF;
+    border-radius: 200px;
+    background-size: 95%;
+    background-position-x: 6px;
+    background-position-y: 12px;
+    background-repeat: no-repeat;
+    background-image: url('../../img/lesson16/img15.png');
+    margin: 0 auto;
+}
+
+.chel2{
+    width: 210px;
+    height: 210px;
+    background-color: #EFEFEF;
+    border-radius: 200px;
+    background-size: 90%;
+    background-position-x: 10px;
+    background-position-y: 23px;
+    background-repeat: no-repeat;
+    background-image: url('../../img/lesson16/img16.png');
+    margin: 0 auto;
+}
+
+.chel3{
+    width: 210px;
+    height: 210px;
+    background-color: #EFEFEF;
+    border-radius: 200px;
+    background-size: 90%;
+    background-position-x: 10px;
+    background-position-y: 23px;
+    background-repeat: no-repeat;
+    background-image: url('../../img/lesson16/img17.png');
+    margin: 0 auto;
+}
+
+.chel4{
+    width: 210px;
+    height: 210px;
+    background-color: #EFEFEF;
+    border-radius: 200px;
+    background-size: 90%;
+    background-position-x: 10px;
+    background-position-y: 23px;
+    background-repeat: no-repeat;
+    background-image: url('../../img/lesson16/img18.png');
+    margin: 0 auto;;
+}
+
+.text1{
+    width: 100%;
+    height: 120px;
+    margin: 32px 0px 0px 0px;
+}
+
+.hh9{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    color: #242424;
+}
+
+.p6{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: #878787;
+    margin: 15px 0px 43px 0px;
+    padding: 0px;
+}
+
+.BTN5{
+    width: 171px;
+    height: 47px;
+    margin: 0 auto;
+}
+
+.btn5{
+    padding: 14px 30px;
+    border-radius: 50px;
+    background-color: #2EBAEE;
+    color: white;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.6s ease;
+    margin: 0 auto;
+}
+
+.btn5:hover{
+    background-color: #2ec8ee;
+    color: white;
+    transition: 0.6s ease;
+}
+
+/* 5 часть сайта chapter5 */
+
+.container_chapter5{
+    width: 100%;
+    height: 720px;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba( 0, 0, 0, 0.8)), url("../../img/lesson16/footerimg.png") center center no-repeat;
+    background-position-y: -450px;
+    background-size: cover;
+    margin: 0px 0px 80px 0px;
+}
+
+.wrapper3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+}
+
+.text2{
+    float: right;
+    width: 580px;
+    height: 300px;
+    margin: 150px 40px 0px 0px;
+}
+
+.hh10{
+    color: white;
+    font-weight: 800;
+    font-size: 72px;
+    margin: 0px;
+}
+
+.p7{
+    font-size: 18px;
+    color: #878787;
+    margin: 60px 0px 30px 0px;
+}
+
+.hh11{
+    font-size: 30px;
+    color: #878787;
+}
+
+.hh2_blue{
+    color: #2EBAEE;
+    font-size: 30px;
+}
+
+.icons{
+    float: right;
+    width: 450px;
+    height: 58px;
+    margin: 30px 167px 0px 0px;
+}
+
+.icon1{
+    width: 58px;
+    height: 58px;
+    background-color: #55ACEE;
+    background-image: url('../../img/lesson16/ico1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50px;
+    display: inline-block;
+    margin: 0px 10px 0px 0px;
+}
+
+.icon2{
+    width: 58px;
+    height: 58px;
+    background-color: #3B5998;
+    background-image: url('../../img/lesson16/ico2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50px;
+    display: inline-block;
+    margin: 0px 16px 0px 16px;
+}
+
+.icon3{
+    width: 58px;
+    height: 58px;
+    background-color: #CC2127;
+    background-image: url('../../img/lesson16/ico3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50px;
+    display: inline-block;
+    margin: 0px 16px 0px 16px;
+}
+
+.icon4{
+    width: 58px;
+    height: 58px;
+    background-color: #DD4B39;
+    background-image: url('../../img/lesson16/ico4.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50px;
+    display: inline-block;
+    margin: 0px 16px 0px 16px;
+}
+
+.icon5{
+    width: 58px;
+    height: 58px;
+    background-color: #E23047;
+    background-image: url('../../img/lesson16/ico5.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50px;
+    display: inline-block;
+    margin: 0px 16px 0px 16px;
+}
+
+.input{
+    width: 550px;
+    height: 650px;
+    float: left;
+    margin: 170px 0px 0px 40px;
+}
+
+#em1{
+    font-weight: 600;
+    margin: 0px 0px 18px 0px;
+    height: 70px;
+    width: 550px;
+    border: 2px solid rgba(77, 77, 77, 0.507);
+    border-radius: 5px;
+    padding: 0px 0px 0px 13px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#textarea1{
+    resize: none;
+    padding: 3px 5px 5px 5px;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    margin: 0px 0px 50px 0px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid rgba(77, 77, 77, 0.507);
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.BTN6{
+    width: 181px;
+    height: 47px;
+    margin: 0 auto;
+}
+
+.btn6{
+    padding: 14px 30px;
+    border-radius: 50px;
+    background-color: #2EBAEE;
+    color: white;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.6s ease;
+    margin: 0 auto;
+}
+
+.btn6:hover{
+    background-color: #2ec8ee;
+    color: white;
+    transition: 0.6s ease;
+}
+
+

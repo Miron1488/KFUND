@@ -1,0 +1,184 @@
+body{
+    margin: 20px 40px 0px 100px;
+    padding: 0px;
+    background-color: rgb(233, 233, 233);
+    font-family: Open Sans, Arial, Helvetica, sans-serif;
+}
+
+#container{
+    width: 700px;
+    height: 415px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 0 5px rgb(177, 177, 177);
+    border-radius: 10px;
+    padding: 18px 0px 0px 34px;
+}
+
+.hh1{
+    font-size: 24px;
+    margin: 22px 0px 22px 0px;
+}
+
+.a1{
+    text-decoration: none;
+    color: #2db34a;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.a1::after{
+    content: ">";
+    margin: 0px 0px 0px 5px;
+    transition: 0.4s ease;
+}
+
+.a1:hover::after{
+    margin: 0px 0px 0px 10px;
+    transition: 0.4s ease;
+}
+
+.hexagon{
+    text-decoration: none;
+    color: #2db34a;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+a.hexagon::before{
+    background: url(http://www.candicendexter.com/images/hexagon.svg) center top no-repeat;
+    border-top: 0;
+    content: "";
+    width: 30px;
+    height: 35px;
+    overflow: hidden;
+    position: absolute;
+    left: 1060px;
+    top: 274px;
+    transition: 0.4s ease;
+}
+
+a.hexagon:hover::before{
+    transform: rotate(30deg);
+    transition: 0.4s ease;
+}
+
+a.hexagon::after{
+    background: url(http://www.candicendexter.com/images/long-arrow-alt-right-solid.svg) center center no-repeat;
+    content: "";
+    width: 21px;
+    height: 18px;
+    line-height: 19px;
+    position: absolute;
+    left: 1064px;
+    top: 283px;
+}
+
+.a3{
+    text-decoration: none;
+    color: #2db34a;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.a3::after{
+    content: "(HTTP://WWW.GOOGLE.COM)";
+    margin: 0px 0px 0px 5px;
+    color: black;
+}
+
+.a4{
+    color: #2db338;
+    text-decoration: none;
+}
+
+.a4:visited{
+    color: #b32d2d;
+    text-decoration: none;
+}
+
+.a5{
+    color: #2db338;
+    text-decoration: none;
+}
+
+.a5:link{
+    color: #b32d2d;
+    text-decoration: none;
+}
+
+.a6{
+    color: #2db338;
+    text-decoration: none;
+}
+
+.a6:hover{
+    font-weight: 700;
+}
+
+.a7{
+    color: #2db338;
+    text-decoration: none;
+}
+
+.a7:active{
+    color: blue;
+}
+
+.a8{
+    color: #2db338;
+    text-decoration: none;
+}
+
+.a8:focus{
+    color: crimson;
+}
+
+input{
+    margin: 0px 0px 0px 50px;
+}
+
+.a9{
+    color: #2db338;
+    text-decoration: none;
+}
+
+li:first-child{
+    font-weight: 700;
+}
+
+li:last-child{
+    color: blue;
+}
+
+.li1{
+    margin: 30px 0px 0px 0px;
+}
+
+.content1{
+    color: #2db338;
+}
+
+.content1 p:first-of-type{
+    font-weight: bold;
+}
+
+.content1 span:only-of-type{
+    color: black;
+}
+
+p:last-child{
+    color: blue;
+}
+
+h4:nth-child(4n){
+    color: blue;
+}
+
+h4:first-child{
+    color: blue;
+}
+
+h5:nth-of-type(2n){
+    color: red;
+}

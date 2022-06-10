@@ -1,0 +1,35 @@
+body{
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: linear-gradient(50deg,#654ea3, #eaafc8);
+    background-size: 2000%;
+
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th{
+    height: 96px;
+    width: 360px;
+}
+
+.img1{
+    height: 50px;
+    width: 50px;
+}
+
+.text1{
+    color: burlywood;
+    
+}
+
+.text1:hover{
+    color: lightblue;
+}
+
+th:hover{
+    background: linear-gradient(#00B4DB,#0083B0);
+    border: 1px solid white;
+}

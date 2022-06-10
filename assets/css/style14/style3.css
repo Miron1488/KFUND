@@ -1,0 +1,114 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(41, 41, 41);
+}
+
+.menu{
+    display: flex;
+    justify-content: left;
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu li{
+    width: 310px;
+    list-style: none;
+    background-color: rgb(236, 75, 0);
+    position: relative;
+}
+
+.menu a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.5s ease;
+}
+
+.menu a:hover{
+    background-color: black;
+}
+
+.menu ul{
+    position: absolute;
+    left: 0px;
+    top: 100%;
+    visibility: hidden;
+    opacity: 0;
+    padding: 0px;
+    transition: 0.5s ease;
+}
+
+.menu .a1{
+    max-width: 190px;
+}
+
+.menu li:hover > ul{
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s ease;
+}
+
+.menu li:hover > ul{
+    visibility: visible;
+}
+
+.menu ul ul{
+    visibility: hidden;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    visibility: hidden;
+    padding: 0;
+}
+
+.menu .hm{
+    width: 100px;
+    margin: 0px;
+}
+
+.menu .long{
+    width: 100%;
+}
+
+.hh1{
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 55px;
+    color: white;
+    text-align: center;
+    margin: 80px 0px 0px 0px;
+}
+
+.hh2{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+}
+
+@media screen and (min-width: 1516px){
+    .menu li{
+        width: 400px;
+    }
+}
+
+@media screen and (min-width: 1230px) and (max-width: 1516px){
+    .menu .long{
+        width: 0px;
+    }
+
+    .menu .a1{
+        max-width: 302px;
+    }
+}
+

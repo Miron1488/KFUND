@@ -1,0 +1,80 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+
+.menu li{
+    width: 300px;
+    list-style: none;
+    background-color: rgb(6, 177, 0);
+    position: relative;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 13px;
+    font-weight: 600;
+    transition: 0.5s ease;
+}
+
+.menu ul{
+    position: absolute;
+    left: 0px;
+    top: 100%;
+    visibility: hidden;
+    opacity: 0;
+    padding: 0px;
+    transition: 0.5s ease;
+}
+
+.menu li:hover > ul{
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s ease;
+}
+
+.menu .yel:hover{   
+    background-color: rgb(255, 196, 0);
+    color: white;
+    transition: 0.5s ease;
+}
+.menu .blu:hover{   
+    background-color: rgb(4, 0, 255);
+    color: white;
+    transition: 0.5s ease;
+}
+.menu .pur:hover{   
+    background-color: rgb(111, 0, 255);
+    color: white;
+    transition: 0.5s ease;
+}
+.menu .red:hover{   
+    background-color: rgb(214, 0, 0);
+    color: white;
+    transition: 0.5s ease;
+}
+
+.img1{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+
+.img2{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}

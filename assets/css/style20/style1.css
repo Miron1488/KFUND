@@ -1,0 +1,2551 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    padding: 0px 100px 0px 100px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #D0D0D0;
+}
+
+.header-inner{
+    display: flex;
+    flex-direction: row;
+    max-width: 1250px;
+    margin: 0 auto;
+    height: 72px;
+    padding: 13px 0px 13px 0px;
+}
+
+.uk-ru{
+    border-left: 1px solid #E2E2E2;
+    border-right: 1px solid #E2E2E2;
+    width: 90px;
+    height: 40px;
+    margin: 17px 0px 0px 30px;
+}
+
+.UA{
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    color: #1F1F1F;
+    text-align: center;
+    margin: 0px;
+}
+
+.RU{
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    border-radius: 2px;
+    text-align: center;
+    margin: 0px 0px 0px 25px;
+    background-color: #4AD295;
+    max-width: 40px;
+}
+
+.eur{
+    border-right: 1px solid #E2E2E2;
+    width: 125px;
+    height: 40px;
+    margin: 17px 0px 0px 0px;
+}
+
+.eurtxt{
+    font-family: 'Montserrat';
+    font-size: 15px;
+    font-weight: 400;
+    color: #393939;
+    text-align: center;
+    margin: 0px;
+}
+
+.social{
+    border-right: 1px solid #E2E2E2;
+    width: 135px;
+    height: 40px;
+    margin: 17px 0px 0px 0px;
+}
+
+.container_social{
+    margin: 8px 0px 0px 20px;
+}
+
+.socialimg{
+    margin: 0px 6px 0px 6px;  
+}
+
+.facebook{
+    margin: 0px 2px 0px 2px;
+}
+
+.telephone{
+    border-right: 1px solid #E2E2E2;
+    width: 225px;
+    height: 40px;
+    margin: 17px 0px 0px 0px;
+    box-sizing: border-box;
+}
+
+.container_telephone{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 0px 0px 27px;
+}
+
+.telephonetxt{
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 700;
+    color: #393939;
+    text-align: center;
+    margin: 0px;
+}
+
+.telephoneimg{
+    margin: 0px 0px 0px 15px;
+}
+
+.search{
+    width: 520px;
+    height: 55px;
+    margin: 9px 0px 0px 0px;
+    padding: 0px 0px 0px 35px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+}
+
+#input1{
+    width: 240px;
+    height: 55px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    background-color: #EFF3F6;
+    border: none;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0px 0px 0px 20px;
+    background-image: url(../../img/lesson20/calendar.svg);
+    background-repeat: no-repeat;
+    background-position-x: 185px;
+    margin: 0px 30px 0px 0px;
+}
+
+#input2{
+    width: 205px;
+    height: 55px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    background-color: #EFF3F6;
+    border: none;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0px 0px 0px 15px;
+    background-image: url(../../img/lesson20/search.svg);
+    background-repeat: no-repeat;
+    background-position-x: 150px;
+}
+
+.header_2{
+    width: 100%;
+    height: 70px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #D0D0D0;
+    padding: 0 auto;
+}
+
+.ul_menu{
+    list-style: none;
+    display: flex;
+    padding: 25px 0px 0px 0px;
+    margin: 0px auto;
+    max-width: 1230px;
+}
+
+.li_menu{
+    padding: 0px 30px 0px 30px;
+}
+
+.a_menu{
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: #616161;
+    text-decoration: none;
+    padding: 0px 0px 23px 0px;
+}
+
+.a_menu:hover{
+    border-bottom: 3px solid #DD4053;
+    color: #171717;
+}
+
+.polygon_menu{
+    margin: 0px 0px 3px 8px;
+}
+
+.hotels{
+    border-bottom: 3px solid #DD4053;
+    color: #171717;
+}
+
+.header_3{
+    width: 100%;
+    height: 520px;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 14.37%, rgba(0, 0, 0, 0.8) 100%), url(../../img/lesson20/img_header.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 110px 0px 0px 0px;
+    box-sizing: border-box;
+}
+
+.glav_container-1{
+    max-width: 1042px;
+    height: 300px;
+    margin: 0 auto;  
+}
+
+.hh1_header3{    
+    margin: 0px;
+    padding: 7px 25px;
+    border: 1px solid #FFFFFF;
+    font-family: 'Open Sans';
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    max-width: 205px;
+}
+
+.hh2_header3{    
+    margin: 20px 0px 0px 0px;
+    font-family: 'Montserrat';
+    font-size: 45px;
+    font-weight: 500;
+    color: white;
+    max-width: 700px;
+}
+
+.hh3_header3{    
+    margin: 40px 0px 0px 0px;
+    padding: 20px 80px;
+    background-color: #ffffff40;
+    border-radius: 2px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    max-width: 100px;
+    transition: 0.6s ease;
+}
+
+.hh3_header3:hover{    
+    background-color: #ffffff56;
+    transition: 0.6s ease;
+}
+
+.header_4{
+    width: 100%;
+    height: 257px;
+    background-color: #F8F8F8;
+}
+
+.glav_container-2{
+    max-width: 1042px;
+    height: 257px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.header4_text{
+    width: 650px;
+    height: 257px;
+    box-sizing: border-box;
+    padding: 25px 0px 0px 0px;
+}
+
+.hh1_header4{
+    margin: 0px 0px 0px 0px;
+    font-family: 'Montserrat';
+    font-size: 30px;
+    font-weight: 600;
+    color: #1D1D1D;
+}
+
+.hh2_header4{
+    margin: 20px 0px 0px 0px;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: 600;
+    color: #777777;
+}
+
+.hh3_header4{
+    margin: 30px 20px 0px 0px;
+    padding: 15px 45px;
+    background-color: #BDBDBD;
+    border-radius: 2px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    max-width: 181px;
+    display: inline-block;
+    transition: 0.6s ease;
+}
+
+.hh3_header4:hover{
+    background-color: #a3a3a3; 
+    transition: 0.6s ease;
+}
+
+.hh4_header4{
+    margin: 30px 0px 0px 0px;
+    padding: 15px 50px;
+    border: 1px solid #969696;
+    border-radius: 2px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 700;
+    color: #969696;
+    max-width: 181px;
+    display: inline-block;
+    transition: 0.6s ease;
+}
+
+.hh4_header4:hover{
+    background-color: rgb(226, 226, 226); 
+    transition: 0.6s ease;
+}
+
+.header4_text2{
+    width: 500px;
+    height: 257px;
+    box-sizing: border-box;
+    padding: 25px 0px 0px 0px;
+}
+
+.hh1_header4-txt2{
+    margin: 10px 0px 0px 20px;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: 600;
+    color: #3D3D3D;
+}
+
+.bef1{
+    display: flex;
+    margin: 15px 0px 15px 140px;
+}
+
+.befglav{
+    display: flex;
+    margin: 10px 0px 15px 140px;
+}
+
+/* Часть 2 - тело */
+
+.main-chapter1{
+    width: 100%;
+    height: 1530px;
+}
+
+.main-part1{
+    width: 100%;
+    height: 185px;
+    margin: 0px 0px 10px 0px;
+}
+
+.glav_container-3{
+    padding: 90px 0px 0px 0px;
+    max-width: 1042px;
+    height: 95px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.hh1_main_part1{
+    margin: 0px;
+    font-family: 'Open Sans';
+    font-size: 45px;
+    font-weight: 500;
+    color: #232323;
+}
+
+.img-main-arrow1{
+    width: 50px;
+    height: 50px;
+    margin: 5px 0px 0px 50px;
+}
+
+.img-main-arrow2{
+    width: 50px;
+    height: 50px;
+    margin: 5px 0px 0px 20px;
+}
+
+.hh2_main_part1{
+    margin: 5px 0px 0px 0px;
+    padding: 14px 34px;
+    border: 1px solid #969696;
+    border-radius: 2px;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 700;
+    color: #969696;
+    max-width: 181px;
+    transition: 0.6s ease;
+}
+
+.hh2_main_part1:hover{
+    background-color: rgb(226, 226, 226); 
+    transition: 0.6s ease;
+}
+
+.line_part1{
+    max-width: 237px;
+    margin: 0px 58px 33px 68px;
+}
+
+/* Main_part2 */
+
+.main-part2{
+    margin: 0 auto;
+    max-width: 1440px;
+    height: 450px;
+    display: flex;
+}
+
+.img1_main_part2{
+    width: 460px;
+    height: 450px;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.6) 100%), url(../../img/lesson20/img1_main_part2.jpg);
+    margin: 0px 15px 0px 0px;
+}
+
+.img2_main_part2{
+    width: 460px;
+    height: 450px;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.6) 100%), url(../../img/lesson20/img2_main_part2.jpg);
+    margin: 0px 15px 0px 15px;
+}
+
+.img3_main_part2{
+    width: 460px;
+    height: 450px;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.6) 100%), url(../../img/lesson20/img3_main_part2.jpg);
+    margin: 0px 0px 0px 15px;
+}
+
+.hh1_main_part2{
+    margin: 20px 0px 0px 0px;
+    padding: 5px 20px;
+    font-family: 'Open Sans';
+    background-color: #00000059;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    max-width: 167px;
+}
+
+.hh1_main_part2r{
+    max-width: 112px;
+}
+
+.stars1{
+    margin: 130px 0px 30px 185px;
+}
+
+.hh2_main_part2{
+    margin: 0 auto;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    max-width: 285px;
+    text-align: center;
+}
+
+.stars2{
+    margin: 130px 0px 30px 173px;
+}
+
+/* Main_part3 */
+
+.main-part3{
+    width: 100%;
+    height: 680px;
+}
+
+.glav_container-4{
+    padding: 100px 0px 0px 0px;
+    max-width: 1042px;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.line_part2{
+    max-width: 270px;
+    margin: 0px 101px 0px 101px;
+}
+
+.glav_container-5{
+    padding: 40px 0px 0px 0px;
+    max-width: 1042px;
+    height: 480px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.card1_main_part3{
+    width: 327px;
+    height: 480px;
+    margin: 0px 15px 0px 0px;
+    background-color: #F8F8F8;
+    background-image: url(../../img/lesson20/card1.png);
+    background-repeat: no-repeat;
+}
+
+.card2_main_part3{
+    width: 327px;
+    height: 480px;
+    margin: 0px 15px 0px 15px;
+    background-color: #F8F8F8;
+    background-image: url(../../img/lesson20/card3.png);
+    background-repeat: no-repeat;
+}
+
+.card3_main_part3{
+    width: 327px;
+    height: 480px;
+    margin: 0px 0px 0px 15px;
+    background-color: #F8F8F8;
+    background-image: url(../../img/lesson20/card2.png);
+    background-repeat: no-repeat;
+}
+
+.hh1_main_part3{
+    margin: 220px 20px 0px 20px;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 500;
+    color: #323232;
+    max-width: 285px;
+}
+
+.hh2_main_part3{
+    margin: 35px 20px 0px 20px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    color: #848484;
+    max-width: 285px;
+}
+
+.hh3_main_part3{
+    margin: 10px 20px 0px 20px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    color: #848484;
+    max-width: 285px;
+}
+
+.hr_main_part3{
+    margin: 20px 20px 0px 20px;
+    border: none;
+    background-color: #E8E8E8;
+    height: 1px;
+}
+
+.hh4_main_part3{
+    margin: 18px 20px 0px 0px;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 500;
+    color: #DD4053;
+    max-width: 285px;
+    display: inline-block;
+}
+
+.price_main_part3{
+    width: 200px;
+    height: 60px;
+    display: inline-block;
+}
+
+.hh4_main_part3r{
+    margin: 0px 5px 0px 20px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 500;
+    color: #DD4053;
+    max-width: 285px;
+    display: inline-block;
+}
+
+.hh5_main_part3{
+    margin: 0px 20px 0px 20px;
+    font-family: 'open Sans';
+    font-size: 12px;
+    font-weight: 600;
+    color: #C9C9C9;
+    max-width: 285px;
+}
+
+.time_main_part3{
+    margin: 0px 0px 0px 30px;
+    width: 72px;
+    height: 50px;
+    display: inline-block;
+}
+
+.hh6_main_part3{
+    margin: 20px 0px 0px 0px;
+    font-family: 'Open Sans';
+    font-size: 12px;
+    font-weight: 400;
+    color: #3E3E3E;
+    max-width: 72px;
+}
+
+/* Main_part4 */
+
+.main-part4{
+    width: 100%;
+    height: 206px;
+}
+
+.glav_container-6{
+    padding: 60px 0px 0px 0px;
+    max-width: 1042px;
+    height: 140px;
+    margin: 0 auto;
+}
+
+.strany_main_part4{
+    width: 100%;
+    height: 140px;
+    border-top: 6px solid #969696;
+    background-color: #F8F8F8;
+}
+
+.container_nazvamie_main_part4{
+    width: 982px;
+    height: 15px;
+    display: flex;
+    margin: 26px 30px 11px 30px;
+}
+
+.hhh1_main_part4{
+    margin: 0px 0px 0px 8px;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 400;
+    color: #22222266;
+}
+
+.geo_main_part4{
+    margin: 0px 0px 0px 32px;
+}
+
+.calendar_main_part4{
+    margin: 0px 0px 0px 96px;
+}
+
+.chelik_main_part4{
+    margin: 0px 0px 0px 105px;
+}
+
+.time_main_part4{
+    margin: 0px 0px 0px 53px;
+}
+
+.container_spiski_main_part4{
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+
+.spiski_main_part4{
+    margin: 0px 0px 0px 30px;
+    width: 825px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid #2E2E2E33;
+    border-radius: 2px;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.hh1_main_part4{
+    margin: 0px;
+    padding: 15px 46px 0px 20px;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 400;
+    color: #4B4B4B;
+}
+
+.hh2_main_part4{
+    margin: 0px;
+    padding: 15px 40px 0px 20px;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 400;
+    color: #22222266;
+    border-left: 1px solid #2E2E2E33;
+}
+
+.polygon_main_part4{
+    width: 6px;
+    height: 6px;
+    margin: 22px 20px 0px 0px;
+}
+
+.polygon_main_part4r{
+    margin: 22px 0px 0px 0px;
+}
+
+.hh3_main_part4{
+    margin: 0px;
+    padding: 15px 0px 0px 15px;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 400;
+    color: #22222266;
+}
+
+.polygon2_main_part4r{
+    margin: 22px 30px 0px 40px;
+}
+
+.hh2_main_part4r{
+    padding: 15px 30px 0px 25px;
+}
+
+.polygon3_main_part4r{
+    margin: 22px 0px 0px 10px;
+}
+
+.hh2_main_part4rr{
+    padding: 15px 0px 0px 23px;
+}
+
+.hh4_main_part4{
+    margin: 0px 0px 0px 22px;
+    padding: 15px 40px;
+    background-color: #DD4053;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    border-radius: 2px;
+    transition: 0.6s ease;
+}
+
+.hh4_main_part4:hover{
+    background-color: #be3747; 
+    transition: 0.6s ease;
+}
+
+/* MAIN-CHAPTER-2 PART-1*/
+
+.main-chapter2{
+    width: 100%;
+    height: 2985px;
+}
+
+.main2-part1{
+    margin: 95px 0px 0px 0px;
+    width: 100%;
+    height: 620px;
+    background-color: #F8F8F8;
+}
+
+.text-container1_main2_part1{
+    padding: 80px 0px 0px 0px;
+    max-width: 1042px;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.line_main2_part1{
+    max-width: 270px;
+    margin: 0px 89px 0px 90px;
+}
+
+.card-container_main2-part1{
+    margin: 0 auto;
+    max-width: 1199px;
+    height: 465px;
+    display: flex;
+}
+
+.arrow1_main2_part1{
+    margin: 190px 30px 0px 0px;
+    width: 50px;
+    height: 50px;
+}
+
+.card1_main2_part1{
+    margin: 72px 14px 0px 0px;
+    width: 238px;
+    height: 330px;
+}
+
+.container_txt1_card_main2_part1{
+    display: flex;
+    margin: 0px;
+}
+
+.calendar_main2_part1{
+    margin: 16px 0px 0px 0px;
+}
+
+.hh3_main2_part1{
+    margin: 18px 0px 0px 10px;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 500;
+    color: #BBBBBB;
+}
+
+.hh4_main2_part1{
+    margin: 12px 0px 0px 0px;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 500;
+    color: #323232;
+}
+
+.hh5_main2_part1{
+    margin: 25px 0px 0px 0px;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 400;
+    color: #232323;
+    border-bottom: 1px solid #232323;
+    max-width: 76px;
+    line-height: 25px;
+    transition: 0.6s ease;
+}
+
+.hh5_main2_part1:hover{
+    color: #DD4053;
+    border-bottom: 1px solid #DD4053;
+    transition: 0.6s ease;
+}
+
+.card2_main2_part1{
+    margin: 72px 14px 0px 0px;
+    padding: 0px 0px 0px 14px;
+    width: 238px;
+    height: 330px;
+    border-left: 1px solid #EEEEEE;
+}
+
+.card3_main2_part1{
+    margin: 72px 0px 0px 0px;
+    padding: 0px 0px 0px 14px;
+    width: 238px;
+    height: 330px;
+    border-left: 1px solid #EEEEEE;
+}
+
+.arrow2_main2_part1{
+    margin: 190px 0px 0px 30px;
+    width: 50px;
+    height: 50px;
+}
+
+/* PART-2 */
+
+.main2-part2{
+    width: 100%;
+    height: 620px;
+}
+
+.text-container1_main2_part2{
+    padding: 90px 0px 65px 0px;
+    max-width: 1042px;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.line_main2_part2{
+    max-width: 680px;
+    margin: 0px 46px 0px 45px;
+}
+
+.arrowx2_mian2_part2{
+    margin: 75px 36px 0px 0px;
+    width: 50px;
+    height: 130px;
+}
+
+.cards1_main2_part2{
+    margin: 0 auto;
+    max-width: 1047px;
+    height: 320px;
+    display: flex;
+}
+
+.card1_main2_part2{
+    width: 300px;
+    height: 320px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.07);
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.card2_main2_part2{
+    width: 300px;
+    height: 320px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.07);
+    padding: 15px;
+    box-sizing: border-box;
+    margin: 0px 30px 0px 30px;
+}
+
+.calendar_main2_part2{
+    margin: 10px 0px 0px 5px;
+}
+
+.hh3_main2_part2{
+    margin: 12px 0px 0px 10px;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 500;
+    color: #BBBBBB;
+}
+
+.glaz_main2_part2{
+    margin: 10px 5px 0px 74px;
+}
+
+.hh6_main2_part2{
+    margin: 11px 0px 0px 10px;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 500;
+    color: #BBBBBB;
+}
+
+.hh4_main2_part2{
+    margin: 10px 0px 0px 5px;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 500;
+    color: #323232;
+    max-width: 200px;
+}
+
+.container_txt2_card_main2_part2{
+    display: flex;
+}
+
+.arrow2_main2_part2{
+    width: 25.5px;
+    height: 7.36px;
+    margin: 34px 0px 0px 45px;
+}
+
+.hh5_main2_part2{
+    margin: 25px 0px 0px 5px;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 400;
+    color: #232323;
+}
+
+/* PART-3 */
+
+.main2-part3{
+    width: 100%;
+    height: 255px;
+    background-color: #DD4053;
+    background-image: url('../../img/lesson20/waves1_main2_part3.png');
+    background-repeat: no-repeat;
+    background-position-x: 1156px;
+    background-position-y: -90px;
+}
+
+.text-container1_main2_part3{
+    padding: 60px 0px 0px 0px;
+    max-width: 1042px;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.hh1_main2_part3{
+    margin: 0px;
+    font-family: 'Montserrat';
+    font-size: 28px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.hh2_main2_part3{
+    margin: 0px 0px 0px 57px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    max-width: 370px;
+    line-height: 26px;
+}
+
+.ipnut1_main2_part3{
+    padding-top: 30px;
+    max-width: 1042px;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+}
+
+#input1_main2_part3{
+    width: 405px;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    background-color: #FFFFFF33;
+    color: white;
+    border: none;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 0px 0px 20px;
+    border: 1px solid #FFFFFF;
+}
+
+.radiobutton_main2_part3{
+    width: 25px;
+    height: 25px;
+    margin: 12px 0px 0px 50px;
+}
+
+.hh3_main2_part3{
+    margin: 16px 0px 0px 20px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.hh4_main2_part3{
+    margin: 0px 0px 0px 50px;
+    padding: 15px 72px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 700;
+    color: #DA2032;
+    background-color: #FFFFFF;
+}
+
+/* PART-4 */
+
+.main2-part4{
+    width: 100%;
+    height: 1040px;
+    background-color: #F8F8F8;
+    background-image: url('../../img/lesson20/mir_main2_part4.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 23px;
+}
+
+.text-container1_main2_part4{
+    padding: 90px 0px 40px 0px;
+    max-width: 1042px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.hh1_main2_part4{
+    margin: 0px;
+    font-family: 'Montserrat';
+    font-size: 40px;
+    font-weight: 500;
+    color: #232323;
+}
+
+.cards1_main2_part4{
+    padding: 0px 0px 30px 0px ;
+    margin: 0 auto;
+    max-width: 1042px;
+    height: 165px;
+    display: flex;
+}
+
+.card1_main2_part4{
+    margin: 0px 0px 0px 0px;
+    width: 505px;
+    height: 165px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.07);
+    box-sizing: border-box;
+    transition: 0.2s ease;
+    background-image: url('../../img/lesson20/nonchecked_main2_part4.svg');
+    background-repeat: no-repeat;
+    background-position-x: 445px;
+    background-position-y: 35px;
+}
+
+.card1_main2_part4:hover{
+    border-left: 6px solid #DD4053;
+    transition: 0.2s ease;
+    background-image: url('../../img/lesson20/checked_main2_part4.svg');
+}
+
+.card2_main2_part4{
+    margin: 0px 0px 0px 30px;
+    width: 505px;
+    height: 165px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.07);
+    box-sizing: border-box;
+    transition: 0.3s ease;
+    background-image: url('../../img/lesson20/nonchecked_main2_part4.svg');
+    background-repeat: no-repeat;
+    background-position-x: 445px;
+    background-position-y: 35px;
+}
+
+.card2_main2_part4:hover{
+    border-left: 6px solid #DD4053;
+    transition: 0.3s ease;
+    background-image: url('../../img/lesson20/checked_main2_part4.svg');
+}
+
+.hh2_main2_part4{
+    margin: 30px 0px 0px 30px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 500;
+    color: #656565;
+    max-width: 380px;
+    line-height: 26px;
+}
+
+.hh2_main2_part4r{
+    font-weight: 700;
+    padding: 0px;
+}
+
+.cards2_main2_part4{
+    margin: 0 auto;
+    max-width: 1042px;
+    height: 165px;
+    display: flex;
+}
+
+.cards3_main2_part4{
+    padding: 0px 0px 0px 0px;
+    margin: 0 auto;
+    max-width: 1042px;
+    height: 190px;
+    display: flex;
+}
+
+.card1r_main2_part4{
+    margin: 0px 0px 0px 0px;
+    width: 505px;
+    height: 190px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.07);
+    box-sizing: border-box;
+    transition: 0.2s ease;
+    background-image: url('../../img/lesson20/nonchecked_main2_part4.svg');
+    background-repeat: no-repeat;
+    background-position-x: 445px;
+    background-position-y: 35px;
+}
+
+.card1r_main2_part4:hover{
+    border-left: 6px solid #DD4053;
+    transition: 0.2s ease;
+    background-image: url('../../img/lesson20/checked_main2_part4.svg');
+}
+
+.card2r_main2_part4{
+    margin: 0px 0px 0px 30px;
+    width: 505px;
+    height: 190px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.07);
+    box-sizing: border-box;
+    transition: 0.3s ease;
+    background-image: url('../../img/lesson20/nonchecked_main2_part4.svg');
+    background-repeat: no-repeat;
+    background-position-x: 445px;
+    background-position-y: 35px;
+}
+
+.card2r_main2_part4:hover{
+    border-left: 6px solid #DD4053;
+    transition: 0.2s ease;
+    background-image: url('../../img/lesson20/checked_main2_part4.svg');
+}
+
+/* PART-5 */
+
+.main2-part5{
+    width: 100%;
+    height: 450px;
+    background-image: url('../../img/lesson20/img1_main2_part5.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.text_container1_main2_part5{
+    padding: 0px 0px 0px 0px;
+    max-width: 1042px;
+    height: 450px;
+    margin: 0 auto;
+}
+
+.hh1_main2_part5{
+    margin: 0px;
+    padding: 100px 0px 0px 0px;
+    font-family: 'Montserrat';
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+    max-width: 530px;
+}
+
+.hh2_main2_part5{
+    margin: 0px;
+    padding: 30px 0px 40px 0px;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+
+.hh3_main2_part5{
+    margin: 0px;
+    padding: 20px 55px;
+    background-color: white;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 700;
+    color: #969696;
+    max-width: 160px;
+    transition: 0.6s ease;
+    border-radius: 2px;
+}
+
+.hh3_main2_part5:hover{
+    background-color: rgb(226, 226, 226);
+    color: #6d6d6d;
+    transition: 0.6s ease;
+}
+
+/* MAIN-CHAPTER-3 PART-1*/
+
+.main-chapter3{
+    width: 100%;
+    height: 3300px;
+}
+
+.main3_part1{
+    width: 100%;
+    height: 750px;
+}
+
+.text-container-main3_part1{
+    max-width: 1042px;
+    height: 90px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.img1-container_main3_part1{
+    max-width: 1042px;
+    margin: 0 auto;
+    padding: 90px 0px 0px 0px;
+}
+
+.img1_main3_part1{
+    width: 168px;
+    height: 42px; 
+}
+
+.hh1_main3_part1{
+    margin: 0px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 42px;
+    color: #232323;
+    max-width: 680px;
+}
+
+.hh2_main3_part1{
+    margin: 30px 0px 0px 170px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #DD4053;
+    max-width: 220px;
+}
+
+.hh2_main3_part1r{
+    font-weight: 700;
+}
+
+.cards1-container-main3-part1{
+    max-width: 1042px;
+    margin: 0 auto;
+    padding: 0px 0px 0px 0px;
+    height: 260px;
+    display: flex;
+}
+
+.card1_main3-part1{
+    margin: 60px 30px 0px 0px;
+    background-image: url('../../img/lesson20/flag_horvatia.svg');
+    background-repeat: no-repeat;
+    background-position-x: 20px;
+    width: 238px;
+    height: 200px;
+}
+
+.hh3_main3_part1{
+    padding: 105px 25px 0px 0px;
+    text-align: right;
+    margin: 0px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
+    color: #232323;
+}
+
+.hh4_main3_part1{
+    margin: 26px 0px 0px 25px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #969696;
+    padding: 8px 55px;
+    max-width: 76px;
+    border-radius: 2px;
+    border: 1px solid #969696;
+    transition: 0.6s ease;
+}
+
+.hh4_main3_part1:hover{
+    color: white;
+    background-color: #969696;
+    transition: 0.6s ease;
+}
+
+.card2_main3-part1{
+    margin: 60px 30px 0px 0px;
+    background-image: url('../../img/lesson20/flag_chernogorie.svg');
+    background-repeat: no-repeat;
+    background-position-x: 20px;
+    width: 238px;
+    height: 200px;
+}
+
+.card3_main3-part1{
+    margin: 60px 30px 0px 0px;
+    background-image: url('../../img/lesson20/flag_slovenia.svg');
+    background-repeat: no-repeat;
+    background-position-x: 20px;
+    width: 238px;
+    height: 200px;
+}
+
+.card4_main3-part1{
+    margin: 60px 0px 0px 0px;
+    background-image: url('../../img/lesson20/flag_italia.svg');
+    background-repeat: no-repeat;
+    background-position-x: 20px;
+    width: 238px;
+    height: 200px;
+}
+
+.text2-container-main3-part1{
+    padding: 80px 0px 0px 0px;
+    max-width: 1042px;
+    height: 81px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.hh5_main3_part1{
+    margin: 0px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #252525;
+    max-width: 380px;
+}
+
+.hh5_main3_part1r{
+    color: #DD4053;
+    border-bottom: 1px solid #DD4053;
+}
+
+.a_main3_part1r{
+    color: #DD4053;
+}
+
+.hh6_main3_part1{
+    margin: 0px 0px 0px 155px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #252525;
+    max-width: 470px;
+    padding: 15px 17px;
+    border: 1px solid #C4C4C4;
+}
+
+.hh6_main3_part1r{
+    font-weight: 700;
+}
+
+/*PART-2*/
+
+.main3_part2{
+    width: 100%;
+    height: 1000px;
+    background-color: #F8F8F8;
+}
+
+.text-1glavcontainer-main3-part2{
+    padding: 100px 0px 0px 0px;
+    width: 100%;
+    height: 500px;
+    background-image: url('../../img/lesson20/img1_main3_part2.png');
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: right;
+    box-sizing: border-box;
+}
+
+.text1-container1-main3-part2{
+    max-width: 1042px;
+    height: 340px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.txt1-container1-main3-part2{
+    width: 650px;
+    height: 340px;
+}
+
+.hh1_main3_part2{
+    margin: 0px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 42px;
+    color: #262626;
+    max-width: 644px;
+}
+
+.hr1_main3_part2{
+    margin: 50px 0px 30px 0px;
+    border: none;
+    background-color: #C4C4C4;
+    height: 1px;
+    max-width: 644px;
+}
+
+.txt2-container-main3-part2{
+    display: flex;
+    width: 100%;
+    height: 170px;
+}
+
+.hh2_main3_part2{
+    max-width: 304px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 28px;
+    color: #656565;
+    margin: 0px;
+}
+
+.hh3_main3_part2{
+    max-width: 270px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 28px;
+    color: #656565;
+    margin: 0px 0px 0px 80px;
+}
+
+.text-2glavcontainer-main3-part2{
+    width: 100%;
+    height: 500px;
+    background-image: linear-gradient(180deg, #F8F8F8 0%, rgba(248, 248, 248, 0) 100%), url('../../img/lesson20/zamki_main3_part2.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    box-sizing: border-box;
+}
+
+.text-container2-main3-part2{
+    max-width: 1042px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.hh4_main3_part2{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #323232;
+    max-width: 447px;
+    margin: 0px 0px 34px 0px;
+}
+
+.hh4_main3_part2r{
+    font-weight: 700;
+}
+
+.txt1-container1-main3-part2{
+    width: 1042px;
+    height: 330px;
+    margin: 0 auto;
+}
+
+.txt2-container1-main3-part2{
+    max-width: 1042px;
+    height: 60px;
+    margin: 0px;
+    display: flex;
+}
+
+.TEXT1-container1-main3-part2{
+    width: 471px;
+    height: 60px;
+    border-bottom: 1px solid #E3E3E3;
+    display: flex;
+    margin: 0px 0px 0px 0px;
+    transition: 0.3s ease;
+}
+
+.TEXT1-container1-main3-part2:hover{
+    border-bottom: 6px solid #DD4053;
+    transition: 0.3s ease;
+}
+
+.hh5_main3_part2{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(150, 150, 150, 0.5);
+    margin: 0px 0px 0px 25px;
+}
+
+.hh6_main3_part2{
+    margin: 0px 0px 0px 40px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 26px;
+    color: #252525;
+    max-width: 400px;
+}
+
+.TEXT2-container1-main3-part2{
+    width: 505px;
+    height: 60px;
+    border-bottom: 1px solid #E3E3E3;
+    display: flex;
+    margin: 0px 0px 0px 60px;
+    transition: 0.3s ease;
+}
+
+.TEXT2-container1-main3-part2:hover{
+    border-bottom: 6px solid #DD4053;
+    transition: 0.3s ease;
+}
+
+.txt2-container2-main3-part2{
+    max-width: 1042px;
+    height: 40px;
+    margin: 15px 0px 0px 0px;
+    display: flex;
+}
+
+.TEXT3-container1-main3-part2{
+    width: 471px;
+    height: 40px;
+    border-bottom: 1px solid #E3E3E3;
+    display: flex;
+    margin: 0px 0px 0px 0px;
+    transition: 0.3s ease;
+}
+
+.TEXT3-container1-main3-part2:hover{
+    border-bottom: 6px solid #DD4053;
+    transition: 0.3s ease;
+}
+
+.TEXT4-container1-main3-part2{
+        width: 505px;
+        height: 40px;
+        border-bottom: 1px solid #E3E3E3;
+        display: flex;
+        margin: 0px 0px 0px 60px;
+        transition: 0.3s ease;
+}
+
+.TEXT4-container1-main3-part2:hover{
+    border-bottom: 6px solid #DD4053;
+    transition: 0.3s ease;
+}
+
+.txt2-container3-main3-part2{
+    max-width: 1042px;
+    height: 40px;
+    margin: 30px 0px 0px 0px;
+    display: flex;
+}
+
+/*PART-3*/
+
+.main3_part3{
+    width: 100%;
+    height: 475px;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 100%), url('../../img/lesson20/img_main3_part3.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.text1-container1-main3-part3{
+    padding: 85px 0px 0px 0px;
+    width: 1042px;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.text-container2-main3-part3{
+    width: 626px;
+    height: 200px;
+}
+
+.hh1_main3_part3{
+    margin: 0px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 55px;
+    color: #FFFFFF;
+}
+
+.hh2_main3_part3{
+    margin: 30px 0px 0px 0px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #EFEFEF;
+}
+
+.text-container3-main3-part3{
+    width: 275px;
+    height: 180px;
+    background: rgba(255, 255, 255, 0.15);
+    margin: 10px 0px 0px 140px
+}
+
+.hh3_main3_part3{
+    margin: 26px 0px 0px 29px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.input-container1-main3-part3{
+    padding: 45px 0px 0px 0px;
+    width: 1042px;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+}
+
+#input1_main3_part3{
+    width: 270px;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    background-color: #191c2091;
+    color: white;
+    border: none;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 0px 0px 20px;
+    border: 1px solid #FFFFFF;
+    margin: 0px 18px 0px 0px;
+}
+
+.hh4_main3_part3{
+    margin: 0px;
+    padding: 15px 38px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #969696;
+    background-color: white;
+    border-radius: 2px;
+    transition: 0.6s ease;
+}
+
+.hh4_main3_part3:hover{
+    transition: 0.6s ease;
+    background-color: #969696;
+    color: #ffffff;
+}
+
+/*PART-4*/
+
+.main3-part4{
+    width: 100%;
+    height: 1075px;
+}
+
+.text-container1-main3-part4{
+    padding: 123px 0px 0px 0px;
+    max-width: 1042px;
+    height: 330px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.text-container2-main3-part4{
+    width: 240px;
+    height: 330px;
+}
+
+.hh1_main3_part4{
+    margin: 0px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 55px;
+    color: #232323;
+}
+
+.hh1_main3_part4r{
+    color: #DD4053;
+}
+
+.hh2_main3_part4{
+    margin: 22px 0px 0px 0px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #898989;
+}
+
+.img1_main3_part4{
+    margin: 0px 0px 0px 103px;
+}
+
+.text2-container1-main3-part4{
+    padding: 62px 0px 0px 0px;
+    height: 400px;
+    max-width: 1042px;
+    margin: 0 auto;
+}
+
+.text2-container2-main3-part4{
+    max-width: 1042px;
+    height: 238px;
+    display: flex;
+}
+
+.card1-main3-part4{
+    width: 300px;
+    height: 238px;
+    margin: 0px 60px 0px 0px;
+}
+
+.hh3-main3-part4{
+    margin: 0px 0px 25px 0px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 55px;
+    color: #262626;
+}
+
+.hr1_main3_part4{
+    margin: 0px 0px 20px 0px;
+    border: none;
+    background-color: #2323234D;
+    height: 1px;
+}
+
+.hh3_main3_part4{
+    margin: 0px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 28px;
+    color: #656565;
+}
+
+.card2-main3-part4{
+    width: 321px;
+    height: 238px;
+    margin: 0px 0px 0px 0px;
+}
+
+/* MAIN-CHAPTER-4 PART-1*/
+
+.main-chapter4{
+    width: 100%;
+    height: 3430px;
+}
+
+.main4-part1{
+    width: 100%;
+    height: 650px;
+    background-image: linear-gradient(180deg, #F8F8F8 17.5%, rgba(248, 248, 248, 0.1) 100%), url('../../img/lesson20/img1_main4_part1.png');
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position: bottom;
+}
+
+.text-container1-main4-part1{
+    width: 1042px;
+    height: 236px;
+    margin: 0 auto;
+    display: flex;
+    padding: 89px 0px 0px 0px;
+}
+
+.hh1-main4-part1{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 55px;
+    color: #232323;
+    max-width: 380px;
+    margin: 0px
+}
+
+.text1-container1-main4-part1{
+    margin: 0px 0px 0px 156px;
+    height: 236px;
+    width: 505px;
+}
+
+.hh2-main4-part1{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #656565;
+    margin: 0px;
+}
+
+.hh3-main4-part1{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #656565;
+    margin: 0px;
+    padding: 20px 0px 0px 0px;
+}
+
+.cards1-container-main4-part1{
+    padding: 60px 0px 0px 0px;
+    width: 1212px;
+    height: 175px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.arrow1-main4-part1{
+    width: 50px;
+    height: 50px;
+    margin: 60px 35px 0px 0px;
+}
+
+.card1-main4-part1{
+    width: 174px;
+    height: 174px;
+    background-color: white;
+    border-right: 1px solid #C4C4C480;
+    background-image: url('../../img/lesson20/maistra-main4-part1.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+}
+
+.card1-main4-part1:hover{
+    border-top: 5px solid #DD4053;
+    transition: 0.3s ease;
+}
+
+.card2-main4-part1{
+    width: 174px;
+    height: 174px;
+    background-color: white;
+    border-right: 1px solid #C4C4C480;
+    background-image: url('../../img/lesson20/valamar-main4-part1.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+}
+
+.card2-main4-part1:hover{
+    border-top: 5px solid #DD4053;
+    transition: 0.3s ease;
+}
+
+.card3-main4-part1{
+    width: 174px;
+    height: 174px;
+    background-color: white;
+    border-right: 1px solid #C4C4C480;
+    background-image: url('../../img/lesson20/LH&V.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+}
+
+.card3-main4-part1:hover{
+    border-top: 5px solid #DD4053;
+    transition: 0.3s ease;
+}
+
+.card4-main4-part1{
+    width: 174px;
+    height: 174px;
+    background-color: white;
+    border-right: 1px solid #C4C4C480;
+    background-image: url('../../img/lesson20/DUKLEY.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+}
+
+.card4-main4-part1:hover{
+    border-top: 5px solid #DD4053;
+    transition: 0.3s ease;
+}
+
+.card5-main4-part1{
+    width: 174px;
+    height: 174px;
+    background-color: white;
+    border-right: 1px solid #C4C4C480;
+    background-image: url('../../img/lesson20/regent.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+}
+
+.card5-main4-part1:hover{
+    border-top: 5px solid #DD4053;
+    transition: 0.3s ease;
+}
+
+.card6-main4-part1{
+    width: 174px;
+    height: 174px;
+    background-color: white;
+    border-right: 1px solid #C4C4C480;
+    background-image: url('../../img/lesson20/nikki_beach.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+}
+
+.card6-main4-part1:hover{
+    border-top: 5px solid #DD4053;
+    transition: 0.3s ease;
+}
+
+.arrow2-main4-part1{
+    width: 50px;
+    height: 50px;
+    margin: 60px 0px 0px 35px;
+}
+
+/* PART-2 */
+
+.main4-part2{
+    width: 100%;
+    height: 1216px;
+}
+
+.text-container1-main4-part2{
+    padding: 90px 0px 0px 0px;
+    width: 1042px;
+    height: 401px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.text1-container-main4-part2{
+    padding: 38px 0px 0px 88px;
+    width: 607px;
+    height: 316px;
+}
+
+.hh1-main4-part2{
+    margin: 0px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 42px;
+    color: #232323;
+}
+
+.hh2-main4-part2{
+    margin: 0px;
+    padding: 35px 0px 0px 0px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #656565;
+}
+
+.text-container2-main4-part2{
+    padding: 62px 0px 28px 0px;
+    width: 1042px;
+    height: 45px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.hh3-main4-part2{
+    margin: 0px;
+    padding: 8px 0px 0px 0px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #323232;
+}
+
+.hh4-main4-part2{
+    margin: 0px 0px 0px 86px;
+    padding: 13px 29px 12px 29px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    color: #969696;
+    border: 1px solid #969696;
+    border-radius: 2px;
+    transition: 0.6s ease;
+}
+
+.hh4-main4-part2:hover{
+    background-color: rgb(226, 226, 226); 
+    transition: 0.6s ease;
+}
+
+.cards1-container-main4-part2{
+    width: 1042px;
+    height: 500px;
+    margin: 0 auto;
+    background: #F8F8F8;
+}
+
+.cards1-container1-main4-part2{
+    width: 100%;
+    height: 262px;
+    display: flex;
+}
+
+.card1-main4-part2{
+    width: 348px;
+    height: 262px;
+    border-right: 1px solid #E3E3E3;
+    border-bottom: 1px solid #E3E3E3;
+    box-sizing: border-box;
+    padding: 31px;
+}
+
+.card1-main4-part2:hover{
+    background-color: white;
+    border-top: 6px solid #DD4053;
+    transition: 0.3s ease;
+}
+
+.hh5-main4-part2{
+    margin: 0px;
+    padding: 0px 0px 20px 0px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #323232;
+    max-width: 250px;
+}
+
+.hh6-main4-part2{
+    margin: 0px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #848484;
+}
+
+.hh7-main4-part2{
+    margin: 35px 0px 0px 0px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #717171;
+    text-align: right;
+}
+
+.card2-main4-part2{
+    width: 348px;
+    height: 262px;
+    border-bottom: 1px solid #E3E3E3;
+    border-right: 1px solid #E3E3E3;
+    box-sizing: border-box;
+    padding: 31px 22px 0px 31px;
+}
+
+.card2-main4-part2:hover{
+    background-color: white;
+    border-top: 6px solid #DD4053;
+    transition: 0.3s ease;
+}
+
+.hh8-main4-part2{
+    margin: 0px;
+    padding: 0px 0px 20px 0px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #323232;
+}
+
+.card3-main4-part2{
+    width: 348px;
+    height: 262px;
+    border-bottom: 1px solid #E3E3E3;
+    box-sizing: border-box;
+    padding: 31px;
+}
+
+.card3-main4-part2:hover{
+    background-color: white;
+    border-top: 6px solid #DD4053;
+    transition: 0.3s ease;
+}
+
+.cards2-container1-main4-part2{
+    width: 100%;
+    height: 237px;
+    display: flex;
+}
+
+.card4-main4-part2{
+    width: 348px;
+    height: 237px;
+    border-right: 1px solid #E3E3E3;
+    box-sizing: border-box;
+    padding: 31px;
+}
+
+.card4-main4-part2:hover{
+    background-color: white;
+    border-top: 6px solid #DD4053;
+    transition: 0.3s ease;
+}
+
+.card5-main4-part2{
+    width: 348px;
+    height: 237px;
+    box-sizing: border-box;
+    padding: 31px;
+}
+
+.card5-main4-part2:hover{
+    background-color: white;
+    border-top: 6px solid #DD4053;
+    transition: 0.3s ease;
+}
+
+.hh9-main4-part2{
+    margin: 0px 0px 0px 0px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #717171;
+    text-align: right;
+}
+
+/* PART-3 */
+
+.main4-part3{
+    padding: 115px 0px 0px 0px;
+    width: 100%;
+    height: 820px;
+    background-color: #F8F8F8;
+    background-image: url('../../img/lesson20/img1-main4-part3.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: -120px;
+}
+
+.hh1-main4-part3{
+    padding: 0px 0px 92px 0px;
+    margin: 0 auto;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 55px;
+    color: #FFFFFF;
+    max-width: 630px;
+}
+
+.container1-main4-part3{
+    width: 1180px;
+    height: 525px;
+    margin: 0 auto;
+    background-color: white;
+    display: flex;
+}
+
+.text1-main4-part3{
+    width: 590px;
+    height: 380px;
+    padding: 76px 0px 0px 72px;
+    display: flex;
+}
+
+.img2-main4-part3{
+    margin: 7px 0px 0px 0px;
+    height: 364px;
+    width: 60px;
+}
+
+.txt1-main4-part3{
+    margin: 0px 0px 0px 30px;
+    width: 410px;
+    height: 363px;
+}
+
+.hh2-main4-part3{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2C2C2C;
+    margin: 0px;
+    padding: 0px 0px 47px 0px;
+}
+
+.hh2-main4-part3r{
+    font-weight: 700;
+}
+
+.hh3-main4-part3{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2C2C2C;
+    margin: 0px;
+    padding: 0px 0px 72px 0px;
+}
+
+.hh3-main4-part3r{
+    font-weight: 700;
+}
+
+.hh4-main4-part3{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2C2C2C;
+    margin: 0px;
+}
+
+.hh4-main4-part3r{
+    font-weight: 700;
+}
+
+.text2-main4-part3{
+    width: 590px;
+    height: 380px;
+    padding: 76px 0px 0px 0px;
+    display: flex;
+}
+
+.hh5-main4-part3{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2C2C2C;
+    margin: 0px;
+    padding: 0px 0px 73px 0px;
+}
+
+.hh6-main4-part3{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2C2C2C;
+    margin: 0px;
+    padding: 0px 0px 45px 0px;
+}
+
+/* PART-4 */
+
+.main4-part4{
+    width: 100%;
+    height: 630px;
+    background-color: #F8F8F8;
+}
+
+.text1-main4-part4{
+    width: 100%;
+    height: 260px;
+    padding: 70px 0px 0px 0px;
+}
+
+.txt1-main4-part4{
+    width: 1042px;
+    height: 110px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.hh1-main4-part4{
+    margin: 0px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 55px;
+    color: #232323;
+    max-width: 508px;
+}
+
+.HH2-main4-part4{
+    margin: 0px 0px 0px 42px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #232323;
+    max-width: 492px;
+}
+
+.input-main4-part4{
+    padding: 30px 0px 0px 0px;
+    width: 1042px;
+    height: 50px;
+    display: flex;
+    margin: 0 auto;
+}
+
+#input1-main4-part4{
+    width: 410px;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    background-color: #FFFFFF33;
+    color: black;
+    border: none;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 0px 0px 20px;
+    border: 1px solid #C4C4C4;
+}
+
+.button1-checked-main4-part4{
+    width: 25px;
+    height: 25px;
+    margin: 11px 0px 0px 53px;
+}
+
+.hh3-main4-part4{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #969696;
+    margin: 14px 0px 0px 20px;
+}
+
+.button2-nonchecked-main4-part4{
+    width: 25px;
+    height: 25px;
+    margin: 11px 0px 0px 40px;
+}
+
+.hh4-main4-part4{
+    margin: 0px 0px 0px 52px;
+    padding: 15px 72px;
+    background-color: #DD4053;
+    border-radius: 2px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.text2-main4-part4{
+    width: 100%;
+    height: 370px;
+    background-image: linear-gradient(180deg, #F8F8F8 2%, rgba(232, 232, 232, 0) 60%, #FFFFFF 100%), url('../../img/lesson20/img1-main4-part4.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.text1-container1-main4-part4{
+    width: 1042px;
+    height: 86px;
+    padding: 134px 0px 0px 0px;
+    margin: 0 auto;
+    display: flex;
+    padding: 100px 0px 40px 0px;
+}
+
+.stolbik1-main4-part4{
+    width: 106px;
+    height: 87px;
+    margin: 0px 0px 0px 157px;
+}
+
+.ul1-main4-part4{
+    padding: 0px;
+    list-style: none;
+    margin: 0px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 19px;
+    color: #3E3E3E;
+}
+
+.li1-main4-part4{
+   padding: 1px 0px 2px 0px; 
+}
+
+.a-main4-part4{
+    color: #3E3E3E;
+    transition: 0.6s ease;
+}
+
+.a-main4-part4:hover{
+    color: black;
+    transition: 0.6s ease;
+}
+
+.stolbik2-main4-part4{
+    width: 100px;
+    height: 86px;
+    margin: 0px 0px 0px 80px;
+}
+
+.a2-main4-part4{
+    color: #3E3E3E;
+    font-size: 12px;
+}
+
+.stolbik3-main4-part4{
+    width: 130px;
+    height: 86px;
+    margin: 0px 0px 0px 80px;
+}
+
+.li2-main4-part4{
+    padding: 1px 0px 30px 0px;
+}
+
+.stolbik4-main4-part4{
+    width: 140px;
+    height: 86px;
+    margin: 0px 0px 0px 98px;
+}
+
+.hr-main4-part4{
+    margin: 0 auto;
+    border: none;
+    background-color: #1D1D1D33;
+    height: 1px;
+    max-width: 1042px;
+}
+
+.text2-container1-main4-part4{
+    padding: 22px 0px 0px 0px;
+    width: 1042px;
+    height: 20px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.hh2-main4-part4{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #3E3E3E80;
+}
+
+.facebook-main4-part4{
+    margin: 0px 0px 0px 613px;
+}
+
+.instagram-main4-part4{
+    margin: 0px 5px 0px 12px;
+}
+
+.youtube-main4-part4{
+    margin: 0px 0px 0px 12px;
+}

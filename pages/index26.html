@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../assets/css/style26.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="card-box-container">
+        <div class="card-box">
+            <div class="card">
+                <div class="discovery">
+                    <img src="../assets/img/lesson26/sim-card-chip.png" class="simcard">
+                    <h1 class="h1">DISCOVER</h1>
+                </div>
+                <div class="card-number">
+                    <h1 class="numbers-on-card"></h1>
+                </div>
+                <div class="card-holder-box">
+                    <div class="card-holder">
+                        <h1 class="h2">Card holder</h1>
+                        <h1 class="h3"></h1>
+                    </div>
+                    <div class="expire-date">
+                        <h1 class="h2">Expire date</h1>
+                        <div class="expire-date-date">
+                            <h1 class="h3_month">01</h1>
+                            <h1 class="h3">/</h1>
+                            <h1 class="h3_year">2022</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <form>
+                <h1 class="h4">CARD NUMBER</h1>
+                <input type="text" id="input1" maxlength="23" placeholder="Set a card number (only numbers)">
+                <h1 class="h4">YOUR NAME</h1>
+                <input type="text" id="input2" maxlength="19" placeholder="Set a your name (only letters)">
+                <div class="date">
+                    <div>
+                        <h1 class="h5">EXPIRE DATE</h1>
+                        <select name="" id="expdate">
+                            <option value="01">January</option>
+                            <option value="02">February</option>
+                            <option value="03">March</option>
+                            <option value="04">April</option>
+                            <option value="05">May</option>
+                            <option value="06">June</option>
+                            <option value="07">July</option>
+                            <option value="08">August</option>
+                            <option value="09">September</option>
+                            <option value="10">October</option>
+                            <option value="11">November</option>
+                            <option value="12">December</option>
+                        </select>
+                    </div>
+                    <div class="year">
+                        <h1 class="h5">YEAR</h1>
+                        <select name="" id="year2">
+                            <option value="2022">2022</option>
+                            <option value="2021">2021</option>
+                            <option value="2020">2020</option>
+                            <option value="2019">2019</option>
+                            <option value="2018">2018</option>
+                            <option value="2017">2017</option>
+                            <option value="2016">2016</option>
+                        </select>
+                    </div> 
+                    <div class="year">
+                        <h1 class="h5">CVV</h1>
+                        <input type="password" id="cvv" maxlength="3">
+                    </div>  
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="../assets/js/index26.js"></script>
+</body>
+</html>

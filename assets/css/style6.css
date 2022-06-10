@@ -1,0 +1,52 @@
+body{
+    text-align: center;   
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.head{
+    margin: 50px;
+    height: 870px;
+    border: 3px solid purple;
+}
+
+.orange{
+    height: 290px;
+    background: orange;
+}
+
+.blue{
+    height: 290px;
+    background: rgb(0, 174, 255);
+}
+
+.blue{float:left;width: 899px;}
+
+.green{
+    height: 290px;
+    background: rgb(30, 180, 0);
+}
+
+.red{
+    height: 290px;
+    background: rgb(185, 1, 1);
+}
+
+.red{float:left;width: 600px;}
+
+.yellow{
+    height: 290px;
+    background: rgb(182, 185, 1);
+}
+
+.yellow{float:left;width: 600px;}
+
+.purple{
+    height: 290px;
+    background: rgb(148, 1, 185);
+}
+
+h1{
+    margin: 0px;
+    padding-top: 130px;
+}

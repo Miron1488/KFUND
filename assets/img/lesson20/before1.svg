@@ -1,0 +1,12 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45 45" width="45" height="45">
+	<title>ul_first-svg</title>
+	<defs>
+		<image  width="20" height="20" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAAAAXNSR0IB2cksfwAAAEhQTFRFAAAAj4+PlZWVlpaWlpaWlZWVl5eXlZWVlpaWl5eXj4+Pl5eXlpaWlZWVn5+fk5OTlpaWlZWVmJiYlZWVl5eXlpaWlZWVlpaWhQ/ipgAAABh0Uk5TACC//88wf+/fQBCfX2AQUFCQb4Agr29wojFBBgAAAINJREFUeJxt0FsSwiAMBdCYSwmUVqtY3f9ONS21Abw/DGeYPCDac2G4wYt4MgkoiaeNhyGZl3LgZHAu5mzNou5Knbam2hvR7Y81WRiSlhiHbbf7Qw8PM+QkCJUh6yU8T1tTeo0rIMbgmFm/RQtn1Jm31rXmMtBXJezh92/MrP26tOt9AFWABKduFkLNAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.s0 { fill: none;stroke: #969696;stroke-width: 1.2;stroke-dasharray: 6 } 
+	</style>
+	<path id="Layer" class="s0" d="m22.5 44.4c-12.11 0-21.9-9.79-21.9-21.9c0-12.11 9.79-21.9 21.9-21.9c12.11 0 21.9 9.79 21.9 21.9c0 12.11-9.79 21.9-21.9 21.9z" />
+	<use id="Background" href="#img1" x="12" y="12" />
+</svg>

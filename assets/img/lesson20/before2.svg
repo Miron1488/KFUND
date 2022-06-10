@@ -1,0 +1,12 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45 45" width="45" height="45">
+	<title>Ellipse 13-svg</title>
+	<defs>
+		<image  width="19" height="20" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAUCAMAAABYi/ZGAAAAAXNSR0IB2cksfwAAAFdQTFRFAAAAlpaWlZWVlpaWlpaWj4+PlpaWk5OTl5eXj4+PlZWVlZWVlpaWlJSUlpaWlZWVlZWVj4+PlZWVmJiYl5eXlJSUl5eXlpaWk5OTlpaWn5+flZWVlZWVJMr0mgAAAB10Uk5TAF/v/48gcECfEDC/36DvgGAwb09AcCBQUM8Qz5CT1wCQAAAAkUlEQVR4nH2Q2xLCIAxEQ1IFmiiItV7//zsltE5LHjwPDNnZsCQACw5pgJ4DVY695lULvRaxas40jyymNXL1ePZ77USNczSpSjKpJjnmlRH+45MzlgvrWxL0z7G0c/gl0BW8EE1QsJUoOlzW6wSyWG4wZxdrIXeAx9onoZQnYXppAtNGmLchmPktuNvBp98HwBcEAQU4L42e8gAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.s0 { fill: none;stroke: #969696;stroke-width: 1.2;stroke-dasharray: 6 } 
+	</style>
+	<path id="Layer" class="s0" d="m23.5 45.4c-12.11 0-21.9-9.79-21.9-21.9c0-12.11 9.79-21.9 21.9-21.9c12.11 0 21.9 9.79 21.9 21.9c0 12.11-9.79 21.9-21.9 21.9z" />
+	<use id="Background" href="#img1" x="14" y="13" />
+</svg>

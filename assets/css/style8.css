@@ -1,0 +1,396 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba( 0, 0, 0, 0.5)), url("../img/lesson8/img1.png") center center no-repeat;
+    background-size: cover;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1280px;
+    height: 100%;
+}
+
+.nav_bar{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_bar_nazvanie{
+    padding: 0px 0px 0px 30px;
+    font-size: 13px;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+ul{
+    margin: 22px 0px 0px 0px;
+}
+
+li{
+    list-style-type: none;
+    display: inline;
+}
+
+.a1{
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding: 0px 20px 0px 20px;
+    transition: 0.4s ease;
+}
+
+.a1:hover{
+    font-size: 16px;
+    transition: 0.4s ease;
+}
+
+.text1_btn{
+    color: white;
+    text-align: center;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-size: 58px;
+    letter-spacing: 3px;
+    width: 755px;
+    height: 200px;
+    margin: 322px 262.5px 0px 265.5px;
+    line-height: 0.35;
+}
+
+.p1{
+    font-family: Roboto Slab, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    letter-spacing: normal;
+    font-weight: normal; 
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin-bottom: 50px;
+}
+
+.btn1{
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    letter-spacing: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    padding: 15px 45px;
+    border: 2px solid white;
+    transition: 0.6s ease;
+}
+
+.btn1:hover{
+    background: white;
+    color: rgb(88, 0, 0);
+    transition: 0.6s ease;
+}
+
+.booder{
+    margin: 0 auto;
+    width: 1280px;
+    height: 630px;  
+}
+
+.container2{
+    margin: 0 auto;
+    width: 1280px;
+    height: 100%;
+}
+
+.txt1{
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 99px 0px 15px 0px;
+    color: #555555;
+}
+
+hr{
+    width: 50px;
+    height: 2px;
+    background-color: gray;
+    border: none;
+}
+
+.txt2{
+    font-family: Roboto Slab, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    padding: 15px 0px 0px 0px;
+    font-weight: normal;
+    color: #555555;
+}
+
+.services2{
+    margin: 69px 0px 0px 0px;
+    height: 250px;
+}
+
+.serv1{
+    margin: 0px 10px 0px 80px;
+    width: 360px;
+    height: 100%;
+    display: inline-block;
+}
+
+.oval1{
+    height: 100px;
+    width: 100px;
+    background: white;
+    background-image: url(../img/lesson8/img2.png);
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 23px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+    border-radius: 50px;
+    margin: 0 auto;
+    transition: 0.6s ease;
+}
+
+.oval1:hover{
+    background: rgb(192,48,28);
+    background-image: url(../img/lesson8/img3.png);
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 23px;
+    transition: 0.6s ease;
+}
+
+.txt3{
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    margin: 25px 0px 25px 0px;
+    color: #555555;
+}
+
+.p2{
+    font-family: Roboto Slab, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    margin: 0px;
+    color: #555555;
+}
+
+.serv2{
+    width: 360px;
+    height: 100%;
+    display: inline-block;
+    margin: 0px 10px 0px 10px;
+}
+
+.oval2{
+    height: 100px;
+    width: 100px;
+    background: white;
+    background-image: url(../img/lesson8/img4.png);
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 25px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+    border-radius: 50px;
+    margin: 0 auto;
+    transition: 0.6s ease;
+}
+
+.oval2:hover{
+    background: rgb(192,48,28);
+    background-image: url(../img/lesson8/img5.png);
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 25px;
+    transition: 0.6s ease;
+}
+
+.txt3{
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    margin: 25px 0px 25px 0px;
+    color: #555555;
+}
+
+.p2{
+    font-family: Roboto Slab, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    margin: 0px;
+    color: #555555;
+}
+
+.serv3{
+    width: 360px;
+    height: 100%;
+    display: inline-block;
+    margin: 0px 0px 0px 10px;
+}
+
+.oval3{
+    height: 100px;
+    width: 100px;
+    background: white;
+    background-image: url(../img/lesson8/img6.png);
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 25px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+    border-radius: 50px;
+    margin: 0 auto;
+    transition: 0.6s ease;
+}
+
+.oval3:hover{
+    background: rgb(192,48,28);
+    background-image: url(../img/lesson8/img7.png);
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 25px;
+    transition: 0.6s ease;
+}
+
+.txt3{
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    margin: 25px 0px 25px 0px;
+    color: #555555;
+}
+
+.p2{
+    font-family: Roboto Slab, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    margin: 0px;
+    color: #555555;
+}
+
+.footer{
+    background: #C0301C;
+    width: 100%;
+    height: 300px;
+    border-bottom: 5px solid white;
+}
+
+.icons{
+    width: 250px;
+    height: 130px;
+    margin: 0 auto;
+}
+
+.icon1{
+    background-image: url(../img/lesson8/img8.png);
+    background-position: center;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    width: 36px;
+    height: 36px;
+    border-radius: 50px;
+    border: 3px solid white;
+    display: inline-block;
+    margin: 85px 5px 0px 19px;
+    transition: 0.6s ease;
+}
+
+.icon1:hover{
+    background: white;
+    background-image: url(../img/lesson8/img9.png);   
+    background-position: center;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    transition: 0.6s ease;
+}
+
+.icon2{
+    background-image: url(../img/lesson8/img11.png);
+    background-position: center;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    width: 36px;
+    height: 36px;
+    border-radius: 50px;
+    border: 3px solid white;
+    display: inline-block;
+    margin: 0px 5px 0px 5px;
+    transition: 0.6s ease;
+}
+
+.icon2:hover{
+    background: white;
+    background-image: url(../img/lesson8/img10.png);   
+    background-position: center;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    transition: 0.6s ease;
+}
+
+.icon3{
+    background-image: url(../img/lesson8/img13.png);
+    background-position: center;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    width: 36px;
+    height: 36px;
+    border-radius: 50px;
+    border: 3px solid white;
+    display: inline-block;
+    margin: 0px 5px 0px 5px;
+    transition: 0.6s ease;
+}
+
+.icon3:hover{
+    background: white;
+    background-image: url(../img/lesson8/img12.png);   
+    background-position: center;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    transition: 0.6s ease;
+}
+
+.icon4{
+    background-image: url(../img/lesson8/img15.png);
+    background-position: center;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    width: 36px;
+    height: 36px;
+    border-radius: 50px;
+    border: 3px solid white;
+    display: inline-block;
+    margin: 0px 5px 0px 5px;
+    transition: 0.6s ease;
+}
+
+.icon4:hover{
+    background: white;
+    background-image: url(../img/lesson8/img14.png);   
+    background-position: center;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    transition: 0.6s ease;
+}
+
+.p3{
+    font-family: Roboto Slab, Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    margin: 60px 0px 0px 0px;
+}
+
+
+
+

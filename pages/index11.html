@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../assets/css/style11.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <title>Lesson 11. Pseudo-class</title>
+</head>
+<body>
+    <div id="container">
+        <h1>PSEUDO-ELEMENT EXAMPLES</h1>
+        <h1 class="hh1">EXAMPLE 1 (::AFTER)</h1>
+        <a href="#" class="a1">THIS IS A LINK WITH AN ARROW!</a>
+        <h1 class="hh1">EXAMPLE 2 (::BEFORE, ::AFTER)</h1>
+        <p><a href="http://www.google.com" class="hexagon">THIS IS A LINK WITH AN ARROW AND A HEXAGON!</a></p>
+        <h1 class="hh1">EXAMPLE 3 (::AFTER)</h1>
+        <a href="#" class="a3">THIS IS A PRINT STYLES LINK!</a>
+    </div>
+    <h1 class="hh1">LINK PSEUDO-CLASSES</h1>
+    <a href="http://www.google.com" class="a4">:visited pseudo-class</a>
+    <p><a href="http://www.google.com" class="a5">:link pseudo-class</a></p>
+    <h1 class="hh1">USER ACTION PSEUDO-CLASSES</h1>
+    <a href="http://www.google.com" class="a6">HOVER pseudo-class</a>
+    <p><a href="http://www.google.com" class="a7">:active pseudo-class</a></p>
+    <p><a href="http://www.google.com" class="a8">:focus pseudo-class</a></p>
+    <h1 class="hh1">USER INTERFACE STATE PSEUDO-CLASSES</h1>
+    First Name: <input type="text" name="fname" placeholder="MALCOM">
+    Last Name: <input type="text" name="lname" placeholder="Reynolds" disabled />
+    I own a Firefly-class transport ship <input type="checkbox" name="vehicle" value="Firefly-class" checked />
+    <h1 class="hh1">STRUCTURAL AND POSITION PSEUDO-CLASSES</h1>
+    <p class="a9">:first-child :last-child and :only-child</p>
+    <ul>
+        <li>This list item is selected by :first-child</li>
+        <li>his list item is not selected</li>
+        <li class="li1"><a href="#container" class="a9">THIS LISTED LINK IS SELECTED BY :ONLY-CHILD</a></li>
+        <li>This list item is selected by :last-child</li>
+    </ul>
+    <h3>:first-of-type :last-of-type and :only-of-type</h3>
+    <div class="content1">
+        <p>This paragraph is selected by :first-of-type</p>
+        <p>This paragraph will not be selected</p>
+        <span>THIS SPAN IS SELECTED BY :ONLY-OF-TYPE</span>
+        <p>This paragraph is selected by :last-of-type</p>
+    </div>
+    <h3>:nth-child(n) and :nth-last-child(n)</h3>
+    <div>
+        <h4>First line of text</h4>
+        <h4>Second line of text</h4>
+        <h4>Third line of text</h4>
+        <h4>Fourth line of text</h4>
+        <h4>Fifth line of text</h4>
+        <h4>Sixth line of text</h4>
+    </div>
+    <h3>:nth-of-type(n) and :nth-last-of-type(n)</h3>
+    <div>
+        <h5>First line of text</h5>
+        <h5>Second line of text</h5>
+        <h5>Third line of text</h5>
+        <h5>Fourth line of text</h5>
+        <h5>Fifth line of text</h5>
+        <h5>Sixth line of text</h5>
+    </div>
+</body>
+</html>

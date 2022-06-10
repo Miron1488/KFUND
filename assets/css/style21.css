@@ -1,0 +1,541 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    width: 100%;
+    height: 117px;
+}
+
+.width-container1{
+    padding: 35px 0px 0px 0px;
+    width: 1025px;
+    height: 45px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.logo-img{
+    margin: 0px 140px 0px 0px;
+}
+
+.hh1-header{
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #F1EFEC;
+    text-align: center;
+    margin: 5px 0px 0px 0px;
+    max-height: 14px;
+    padding: 9px 16px 13px 16px;
+    background-color: #9B242D;
+    border-radius: 3px;
+}
+
+.hh2-header{
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #565757;
+    text-align: center;
+    margin: 5px 0px 0px 4px;
+    max-height: 14px;
+    padding: 9px 16px 13px 16px;
+    transition: 0.3s ease;
+}
+
+.hh2-header:hover{
+    background-color: #9B242D;
+    border-radius: 3px;
+    color: #F1EFEC;
+    transition: 0.5s ease;
+}
+
+.block1{
+    width: 1400px;
+    height: 603px;
+    background-image: url('../img/lesson21/img1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0 auto;
+}
+
+.hh1-block1{
+    margin: 0px;
+    padding: 228px 0px 0px 0px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.hh2-block1{
+    margin: 0px;
+    padding: 0px 0px 52px 0px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.btn1-block1{
+    margin: 0 auto;
+    padding: 8px 58px 10px 58px;
+    font-family: 'Open Sans';
+    font-size: 26px;
+    font-weight: 700;
+    color: #46A651;
+    text-align: center;
+    background-color: white;
+    border-radius: 50px;
+    max-width: 157px;
+    transition: 0.3s ease;
+}
+
+.btn1-block1:hover{
+    transition: 0.5s ease;
+    color: white;
+    background-color: #46A651;
+}
+
+.block2{
+    width: 100%;
+    height: 950px;
+}
+
+.width-container2{
+    width: 1400px;
+    height: 950px;
+    margin: 0 auto;
+}
+
+.poloska1-block2{
+    width: 100%;
+    height: 317px;
+    display: flex;
+}
+
+.cont1-poloska1-block2{
+    width: 541px;
+    height: 317px;
+}
+
+.logo2{
+    margin: 130px 0px 0px 215px;
+}
+
+.cont2-poloska1-block2{
+    width: 538px;
+    height: 317px;
+    background-color: #9B242D;
+}
+
+.hh1-block2{
+    margin: 0px;
+    padding: 105px 0px 0px 45px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+}
+
+.hh2-block2{
+    margin: 0px;
+    padding: 13px 0px 0px 45px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+
+.big-poloska-block2{
+    width: 1400px;
+    height: 634px;
+    background-image: url('../img/lesson21/img3.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.big-poloska1-block2{
+    width: 862px;
+    height: 317px;
+    background-color: #46A651;
+}
+
+.hh1-block2-green{
+    margin: 0px;
+    padding: 71px 0px 0px 388px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+}
+
+.form-container1{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    margin: 24px 0px 0px 0px;
+}
+
+#input1{
+    width: 280px;
+    height: 45px;
+    border: none;
+    background-color: #5EC069;
+    color: white;
+    padding: 0px 0px 0px 13px;
+    font-family: 'Roboto', serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px 0px 0px 388px;
+    box-sizing: border-box;
+}
+
+.hh2-block2-green{
+    margin: 0px;
+    padding: 13px 26px 13px 26px;
+    font-family: 'Roboto', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    background-color: #398642;
+}
+
+.hh3-block2-green{
+    margin: 0px;
+    padding: 18px 0px 0px 308px;
+    font-family: 'Roboto', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    text-align: right;
+    max-width: 483px;
+}
+
+.big-poloska2-block2{
+    margin: 0px 0px 0px 862px;
+    width: 321px;
+    height: 316px;
+    background-color: #3B5997;
+}
+
+.fackebook-img{
+    height: 75px;
+    width: 75px;
+    margin: 123px 0px 0px 124px;
+}
+
+.hh3-block2-blue{
+    margin: 0px;
+    padding: 28px 0px 0px 0px;
+    font-family: 'Roboto', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+
+.block3{
+    width: 100%;
+    height: 680px;
+}
+
+.width-container3{
+    width: 1025px;
+    height: 680px;
+    margin: 0 auto;
+}
+
+.hh1-block3{
+    margin: 0px;
+    padding: 84px 0px 0px 0px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 50px;
+    font-weight: 400;
+    color: #373838;
+    text-align: center;
+}
+
+.card-container1{
+    width: 100%;
+    height: 340px;
+    margin: 54px 0px 0px 0px;
+    display: flex;
+}
+
+.card1-cont1{
+    width: 260px;
+    height: 340px;
+    margin: 0px 0px 0px 33px;
+}
+
+.number-cont1{
+    width: 89px;
+    height: 103px;
+    margin: 0 auto;
+    background-image: url('../img/lesson21/number.png');
+    transition: 0.3s ease;
+}
+
+.card1-cont1:hover > .number-cont1{
+    background-image: url('../img/lesson21/number-red.png');
+    transition: 0.5s ease;
+}
+
+.hh2-block3{
+    margin: 0px;
+    padding: 18px 0px 0px 0px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+
+.hh3-block4{
+    margin: 0px;
+    padding: 4px 0px 0px 0px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #9B242D;
+    text-align: center;
+}
+
+.hh4-block4{
+    margin: 0px;
+    padding: 20px 0px 0px 0px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #373838;
+    text-align: center;
+}
+
+.hh5-block4{
+    margin: 0px;
+    padding: 7px 0px 29px 0px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #373838;
+    text-align: center;
+}
+
+.btn1-block3{
+    margin: 0 auto;
+    padding: 8px 24px 9px 24px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    background-color: #373838;
+    max-width: 40px;
+    transition: 0.3s ease;
+}
+
+.btn1-block3:hover{
+    background-color: #9B242D;
+    transition: 0.5s ease;
+}
+
+.card2-cont1{
+    width: 260px;
+    height: 340px;
+    margin: 0px 0px 0px 90px;
+}
+
+.card2-cont1:hover > .number-cont1{
+    background-image: url('../img/lesson21/number-red.png');
+    transition: 0.5s ease;
+}
+
+.footer{
+    width: 100%;
+    height: 400px;
+    background-color: #373838;
+}
+
+.width-container4{
+    width: 1025px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 60px 0px 0px 0px;
+    box-sizing: border-box;
+}
+
+.menu-footer{
+    padding: 0px 100px 0px 100px;
+    box-sizing: border-box;
+    width: 1025px;
+    height: 16px;
+    display: flex;
+}
+
+.hh1-footer{
+    margin: 0 auto;
+    padding: 0px 33px 0px 33px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #777777;
+    text-align: center;
+    transition: 0.3s ease;
+}
+
+.hh1-footer:hover{
+    color: #F1EFEC;
+    transition: 0.5s ease;
+}
+
+.hr-footer{
+    margin: 52px 0px 42px 0px;
+    border: none;
+    background-color: #FFFFFF;
+    opacity: 0.1;
+    height: 1px;
+}
+
+.menu2-footer{
+    width: 1025px;
+    height: 20px;
+    display: flex;
+}
+
+.hh2-footer{
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #C6C6C6;
+}
+
+.hh3-footer{
+    margin: 0px;
+    padding: 0px 0px 0px 270px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #C6C6C6;
+}
+
+.hh4-footer{
+    margin: 0px;
+    padding: 0px 0px 0px 482px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #C6C6C6;
+}
+
+.container-footer-social{
+    width: 100%;
+    height: 48px;
+    display: flex;
+    margin: 16px 0px 0px 0px;
+}
+
+.facebook-soc{
+    width: 41px;
+    height: 41px;
+    background-color: #3B5997;
+    background-image: url('../img/lesson21/fackebook.png');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.twitter-soc{
+    margin: 0px 0px 0px 10px;
+    width: 41px;
+    height: 41px;
+    background-color: #3EC2F3;
+    background-image: url('../img/lesson21/twitter.png');
+    background-size: 55%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.google-soc{
+    margin: 0px 0px 0px 10px;
+    width: 41px;
+    height: 41px;
+    background-color: #E44C41;
+    background-image: url('../img/lesson21/google-plus-logo.png');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#input2{
+    width: 200px;
+    height: 41px;
+    border: none;
+    background-color: #494949;
+    color: white;
+    padding: 0px 0px 0px 13px;
+    font-family: 'Roboto', serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px 0px 0px 210px;
+    box-sizing: border-box;
+}
+
+.btn1-footer{
+    margin: 0px;
+    padding: 11px 26px 11px 26px;
+    font-family: 'Roboto', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    background-color: #9B242D;
+}
+
+.hh5-footer{
+    max-width: 124px;
+    margin: 0px 0px 0px 228px;
+    font-family: 'Open Sans', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #848484;
+    text-align: right;
+    line-height: 16px;
+}
+
+.hh5-footerr{
+    max-width: 124px;
+    margin: 0px;
+    font-family: 'Open Sans', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #848484;
+    text-align: right;
+}
+
+.hr2-footer{
+    margin: 43px 0px 0px 0px;
+    border: none;
+    background-color: #FFFFFF;
+    opacity: 0.1;
+    height: 1px;
+}
+
+.hh6-footer{
+    margin-top: 37px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #848484;
+    text-align: center;
+}

@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="./assets/css/PORTFOLIO/stylePORTFOLIO.css">
+    <link rel="stylesheet" href="./assets/css/PORTFOLIO//stylePORTFOLIO.css">
+    <link rel="stylesheet" title="theme" href="#">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,16 +14,17 @@
 </head>
 <body>
     <div class="obyavlenie">
-        <h1 class="h1-reklama">Сайт стал более адаптивным, темная тема пока-что не работает</h1>
+        <h1 class="h1-reklama">Добавлена темная тема и плавный скролл страници</h1>
     </div>
     <header>
         <div class="menu">
             <h1 class="h1">PORTFOLIO</h1>
         </div>
         <div id="toggleTheme">
-            <img src="./assets/img/PORTFOLIO/img1.png" class="img-switcher">
-            <img src="./assets/img/PORTFOLIO/img3.png" style="display: none">
+            <img src="./assets/img/PORTFOLIO/img1.png" class="img-switcher" data-theme="dark">
+            <img src="./assets/img/PORTFOLIO/img3.png" class="img-switcher" data-theme="light">
         </div>
+        <script src="./assets/js/PORTFOLIO.js"></script>
     </header>
     <div class="bgg">
         <div class="theme1">
@@ -248,6 +250,6 @@
             </div>
         </div>
     </div>  
-    <script src="./assets/js/PORTFOLIO.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js" integrity="sha256-huW7yWl7tNfP7lGk46XE+Sp0nCotjzYodhVKlwaNeco=" crossorigin="anonymous"></script>
 </body>
 </html>

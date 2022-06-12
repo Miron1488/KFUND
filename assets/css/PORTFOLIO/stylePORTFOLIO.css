@@ -35,6 +35,7 @@ h1{
     height: 40px;
     position: static;
     background-color: rgb(156, 156, 156);
+    transition: 0.3s ease-in-out;
 }
 
 .h1-reklama{
@@ -71,6 +72,7 @@ header{
     font-weight: 700;
     color: black;
     user-select: none;
+    transition: 0.3s ease-in-out;
 }
 
 .h1:hover{
